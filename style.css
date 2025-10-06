@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3eee7; /* soft beige background */
+  margin: 0;
+  padding: 20px;
+  color: #4a3f35; /* earthy brown text */
+}
+
+.app-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #3b2e26;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fffaf5; /* cream card */
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #3b2e26;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #c9b8a8;
+  border-radius: 6px;
+}
+
+button {
+  background: #a68160; /* earthy brown button */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button:hover {
+  background: #8c6d50;
+}

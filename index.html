@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZinM Wellness</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PWA support -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#a68160">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Logo -->
+    <img src="zinwellnesslogo.png" alt="zinwellnesslogo.png" class="logo">
+
+    <h1>ZinM Wellness</h1>
+
+    <!-- Wellness Tracker -->
+    <div class="card">
+      <h2>Wellness Tracker</h2>
+      <label><input type="checkbox"> Meditation</label>
+      <label><input type="checkbox"> Drink Water</label>
+      <label><input type="checkbox"> Walk</label>
+    </div>
+
+    <!-- To-Do -->
+    <div class="card">
+      <h2>To-Do</h2>
+      <div id="todo-list"></div>
+      <input type="text" id="todo-input" placeholder="Enter a task...">
+      <br><br>
+      Start: <input type="time" id="start-time">
+      End: <input type="time" id="end-time">
+      <br><br>
+      <button onclick="addTodo()">Add</button>
+    </div>
+
+    <!-- Affirmations -->
+    <div class="card">
+      <h2>Affirmations</h2>
+      <p id="affirmation">Click below or wait for auto rotation ✨</p>
+      <button onclick="newAffirmation()">New Affirmation</button>
+    </div>
+
+    <!-- Ideas -->
+    <div class="card">
+      <h2>Ideas</h2>
+      <p>Start a gratitude journal</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

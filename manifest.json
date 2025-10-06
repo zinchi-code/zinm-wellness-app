@@ -1,0 +1,21 @@
+{
+"name": "ZinM Wellness",
+"short_name": "ZinM",
+"start_url": "./index.html",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#a68160",
+"description": "Balance your mind, nurture your soul with ZinM Wellness – track habits, to-dos, and affirmations.",
+"icons": [
+{
+"src": "zinwellnesslogo.png",
+"sizes": "192x192",
+"type": "image/png"
+},
+{
+"src": "zinwellnesslogo.png",
+"sizes": "512x512",
+"type": "image/png"
+}
+]
+}
