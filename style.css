@@ -17,6 +17,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+.logo {
+  display: block;       
+  width: 150px;         
+  height: auto;         
+  margin: 20px auto;  
+}
+
 .card {
   background: #fffaf5; /* cream card */
   border-radius: 12px;
@@ -56,3 +63,4 @@ button {
 button:hover {
   background: #8c6d50;
 }
+
